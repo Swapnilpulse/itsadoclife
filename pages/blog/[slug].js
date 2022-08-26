@@ -3,7 +3,6 @@ import Image from 'next/image'
 import { useState } from 'react';
 
 export default function Post(data){
-    [hide,Set] =
     //console.log(post);<Image width="640" height="426" src={post.featuredImage.node.sourceUrl} />
     const post = data.post;
     console.log(data);
